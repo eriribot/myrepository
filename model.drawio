@@ -1,25 +1,25 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.5">
   <diagram name="第 1 页" id="XJJBHrWKY9-hhShi0u1z">
-    <mxGraphModel dx="2867" dy="657" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="3387" dy="939" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="QO8AIxXJns6lbtfpmJol-41" value="&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（a)Input Mulitiscale&amp;nbsp; Series&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="-1569.5" y="371" width="164" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="L5SBvzjySARH55JNPfqP-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#FFFF00;textDirection=ltr;fillColor=#D5F5E3;" parent="1" vertex="1">
+        <mxCell id="L5SBvzjySARH55JNPfqP-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#3333FF;textDirection=ltr;fillColor=#F1FFFE;fillStyle=solid;" parent="1" vertex="1">
           <mxGeometry x="-1422" y="396" width="625" height="304" as="geometry" />
         </mxCell>
-        <mxCell id="L5SBvzjySARH55JNPfqP-3" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Decmposition&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;direction=north;align=center;container=0;horizontal=0;fontColor=#000000;strokeColor=#000000;fillColor=#D6EAF8;" parent="1" vertex="1">
+        <mxCell id="L5SBvzjySARH55JNPfqP-3" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Decmposition&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;direction=north;align=center;container=0;horizontal=0;fontColor=#000000;strokeColor=#9933FF;fillColor=#D6EAF8;" parent="1" vertex="1">
           <mxGeometry x="-1417.5" y="482" width="37" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="L5SBvzjySARH55JNPfqP-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.603;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="QO8AIxXJns6lbtfpmJol-36" edge="1" target="L5SBvzjySARH55JNPfqP-3">
+        <mxCell id="L5SBvzjySARH55JNPfqP-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.603;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="QO8AIxXJns6lbtfpmJol-36" target="L5SBvzjySARH55JNPfqP-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1522" y="452" as="sourcePoint" />
             <mxPoint x="-1417.037" y="451.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="L5SBvzjySARH55JNPfqP-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.97;exitY=0.59;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="QO8AIxXJns6lbtfpmJol-37" edge="1" target="L5SBvzjySARH55JNPfqP-3">
+        <mxCell id="L5SBvzjySARH55JNPfqP-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.97;exitY=0.59;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="QO8AIxXJns6lbtfpmJol-37" target="L5SBvzjySARH55JNPfqP-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1530" y="540" as="sourcePoint" />
             <mxPoint x="-1417" y="539.998" as="targetPoint" />
@@ -70,7 +70,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kMT_xYF5EAAL3G3GDPxJ-12" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.64;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.124;entryY=0.277;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="kMT_xYF5EAAL3G3GDPxJ-4" edge="1" source="L5SBvzjySARH55JNPfqP-3">
+        <mxCell id="kMT_xYF5EAAL3G3GDPxJ-12" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.64;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.124;entryY=0.277;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="L5SBvzjySARH55JNPfqP-3" target="kMT_xYF5EAAL3G3GDPxJ-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1380" y="523" as="sourcePoint" />
             <mxPoint x="-1333" y="488" as="targetPoint" />
@@ -316,7 +316,7 @@
             <mxPoint x="-899" y="408" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bedU7sg7BsrMNPWo7Iw9-33" value="&lt;b&gt;Feed Forward&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;horizontal=0;" parent="1" vertex="1">
+        <mxCell id="bedU7sg7BsrMNPWo7Iw9-33" value="&lt;b&gt;Feed Forward&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;horizontal=0;strokeColor=#99FFFF;strokeWidth=1;fillStyle=hatch;" parent="1" vertex="1">
           <mxGeometry x="-845" y="408" width="37" height="284" as="geometry" />
         </mxCell>
         <mxCell id="bedU7sg7BsrMNPWo7Iw9-35" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=-0.048;entryY=0.493;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="bedU7sg7BsrMNPWo7Iw9-28" target="bedU7sg7BsrMNPWo7Iw9-33" edge="1">
