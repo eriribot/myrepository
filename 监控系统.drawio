@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.5">
   <diagram name="第 1 页" id="HKzkjlQP5yG8YAvLp73N">
-    <mxGraphModel dx="1093" dy="805" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1237" dy="889" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -81,8 +81,8 @@
         <mxCell id="RkX3MmSreuRREseViEt_-24" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-44" y="-309" width="150" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="RkX3MmSreuRREseViEt_-25" value="yolo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-38" y="-294" width="91" height="31" as="geometry" />
+        <mxCell id="RkX3MmSreuRREseViEt_-25" value="yolo-world" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-34.5" y="-295" width="95.5" height="31" as="geometry" />
         </mxCell>
         <mxCell id="RkX3MmSreuRREseViEt_-26" value="运动特征提取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-36" y="-216" width="94" height="35" as="geometry" />
@@ -138,8 +138,8 @@
         <mxCell id="RkX3MmSreuRREseViEt_-39" value="结果分析建议模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="229" y="188" width="158" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="RkX3MmSreuRREseViEt_-40" value="TODO:导入clip做中间层/本地的视觉模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="534" y="-353" width="219" height="154" as="geometry" />
+        <mxCell id="RkX3MmSreuRREseViEt_-40" value="TODO:&lt;strike&gt;导入clip做中间层&lt;/strike&gt;/本地的视觉模型/找到更方便的&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;yolo-world做中间层&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="518" y="-346" width="254" height="181" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
