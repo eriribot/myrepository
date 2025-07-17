@@ -1,9 +1,146 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.5">
   <diagram name="第 1 页" id="HKzkjlQP5yG8YAvLp73N">
-    <mxGraphModel>
+    <mxGraphModel dx="1093" dy="805" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RkX3MmSreuRREseViEt_-1" value="获取视频流" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-196" y="-117" width="102" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-2" value="特征提取模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-27" y="-117" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-3" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="RkX3MmSreuRREseViEt_-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-94" y="-87" as="sourcePoint" />
+            <mxPoint x="-44" y="-137" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-4" value="大模型模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-27" y="-11" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-5" value="视频帧" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-96.5" y="-112.5" width="66" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RkX3MmSreuRREseViEt_-1" target="RkX3MmSreuRREseViEt_-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-138" y="-2" as="sourcePoint" />
+            <mxPoint x="-138" y="41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-7" value="原始视频" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="RkX3MmSreuRREseViEt_-6">
+          <mxGeometry x="-0.3884" y="1" relative="1" as="geometry">
+            <mxPoint x="16" y="38" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="RkX3MmSreuRREseViEt_-11" target="RkX3MmSreuRREseViEt_-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="33" y="97" as="sourcePoint" />
+            <mxPoint x="56" y="71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-11" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-79.5" y="106" width="225" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-12" value="调用api的大模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-27" y="118" width="120" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RkX3MmSreuRREseViEt_-12" target="RkX3MmSreuRREseViEt_-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-23" y="263" as="sourcePoint" />
+            <mxPoint x="27" y="213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-15" value="视频内容描述" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-72" y="188" width="86" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-16" value="异常行为识别" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8" y="244" width="98" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-19" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RkX3MmSreuRREseViEt_-12" target="RkX3MmSreuRREseViEt_-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="49" y="161" as="sourcePoint" />
+            <mxPoint x="54" y="234" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-20" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RkX3MmSreuRREseViEt_-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="32" y="-59" as="sourcePoint" />
+            <mxPoint x="33" y="-12" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-21" value="特征数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="39" y="-49" width="82" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-22" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.513;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RkX3MmSreuRREseViEt_-2" target="RkX3MmSreuRREseViEt_-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="31" y="-117" as="sourcePoint" />
+            <mxPoint x="33" y="-157" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-24" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-44" y="-309" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-25" value="yolo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-38" y="-294" width="91" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-26" value="运动特征提取" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-36" y="-216" width="94" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-28" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RkX3MmSreuRREseViEt_-2" target="RkX3MmSreuRREseViEt_-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="106" y="-72" as="sourcePoint" />
+            <mxPoint x="160" y="-87" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-29" value="行为分析模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="151" y="-111.5" width="94" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-30" value="提取特征" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="24" y="-156" width="82" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-31" value="告警系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="243" y="5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-32" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RkX3MmSreuRREseViEt_-4" target="RkX3MmSreuRREseViEt_-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="218" y="195" as="sourcePoint" />
+            <mxPoint x="268" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-33" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="93" y="138" as="sourcePoint" />
+            <mxPoint x="158" y="28" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-34" value="多模态分析" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="100.5" y="-7.5" width="98" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-35" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RkX3MmSreuRREseViEt_-29" target="RkX3MmSreuRREseViEt_-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="315" y="-57" as="sourcePoint" />
+            <mxPoint x="365" y="-107" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-36" value="行为分析结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="265" y="-70" width="114" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-37" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.473;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RkX3MmSreuRREseViEt_-31" target="RkX3MmSreuRREseViEt_-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="416" y="204" as="sourcePoint" />
+            <mxPoint x="305" y="189" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-38" value="告警信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="295.5" y="111.5" width="82" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-39" value="结果分析建议模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="229" y="188" width="158" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="RkX3MmSreuRREseViEt_-40" value="TODO:导入clip做中间层/本地的视觉模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="534" y="-353" width="219" height="154" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
