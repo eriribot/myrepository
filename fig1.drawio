@@ -11,7 +11,7 @@
           <mxGeometry x="880.5" y="1362" width="625" height="323" as="geometry" />
         </mxCell>
         <mxCell id="pwEByrmDIv9I0MBDWm94-1" value="&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;b&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px;&quot;&gt;（a)Input Mulitiscale&amp;nbsp; Series&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSize=11;direction=east;" parent="1" vertex="1">
-          <mxGeometry x="733" y="1333" width="165" height="26" as="geometry" />
+          <mxGeometry x="738" y="1312" width="165" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pwEByrmDIv9I0MBDWm94-3" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Decmposition&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;direction=north;align=center;container=0;horizontal=0;fontColor=#000000;strokeColor=#9933FF;fillColor=#D6EAF8;gradientColor=#CC99FF;" parent="1" vertex="1">
           <mxGeometry x="885" y="1456" width="37" height="140" as="geometry" />
@@ -38,7 +38,7 @@
           <mxGeometry x="873.5" y="1376" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pwEByrmDIv9I0MBDWm94-8" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 12px;&quot;&gt;(b)Past Information Mixing&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1056.5" y="1333" width="160" height="26" as="geometry" />
+          <mxGeometry x="1058" y="1309" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pwEByrmDIv9I0MBDWm94-9" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontColor=#000000;strokeColor=#000000;direction=east;" parent="1" vertex="1">
           <mxGeometry x="963.5" y="1379" width="100.5" height="50" as="geometry" />
@@ -329,7 +329,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pwEByrmDIv9I0MBDWm94-76" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 12px;&quot;&gt;(c)Future Information Mixing&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="1614.5" y="1333" width="172" height="26" as="geometry" />
+          <mxGeometry x="1618" y="1312" width="172" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pwEByrmDIv9I0MBDWm94-77" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#00994D;strokeColor=#FF3333;entryX=0.176;entryY=0.555;entryDx=0;entryDy=0;entryPerimeter=0;endSize=4;startSize=13;jumpSize=7;strokeWidth=3;targetPerimeterSpacing=5;sourcePerimeterSpacing=4;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -565,11 +565,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pwEByrmDIv9I0MBDWm94-115" value="&lt;font face=&quot;Tahoma&quot; style=&quot;font-size: 10px; color: rgb(51, 51, 255);&quot;&gt;Moving&lt;br&gt;Average&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;direction=east;" parent="1" vertex="1">
-          <mxGeometry x="742.5" y="1444" width="54" height="41" as="geometry" />
+        <mxCell id="pwEByrmDIv9I0MBDWm94-115" value="&lt;font face=&quot;Tahoma&quot; color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;DFT&lt;br&gt;Transform&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;direction=east;" parent="1" vertex="1">
+          <mxGeometry x="738.5" y="1444" width="62" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="pwEByrmDIv9I0MBDWm94-116" value="&lt;font face=&quot;Tahoma&quot; style=&quot;font-size: 10px; color: rgb(51, 51, 255);&quot;&gt;Moving&lt;br&gt;Average&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;direction=east;" parent="1" vertex="1">
-          <mxGeometry x="752.5" y="1565" width="54" height="41" as="geometry" />
+        <mxCell id="pwEByrmDIv9I0MBDWm94-116" value="&lt;font face=&quot;Tahoma&quot; color=&quot;#3333ff&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Haar&lt;br&gt;Wavelt&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;direction=east;" parent="1" vertex="1">
+          <mxGeometry x="755.5" y="1565" width="48" height="42" as="geometry" />
         </mxCell>
         <mxCell id="pwEByrmDIv9I0MBDWm94-117" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#3333FF;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
